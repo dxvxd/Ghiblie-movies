@@ -16,7 +16,7 @@ dependencies are minimized. Third-party libraries used in project:
 - [Requests](http://docs.python-requests.org/en/master/)
 
 
-## Instalation
+## Installation
 
 To install project, create python virtual environment for Python 3.8, activate 
 it and install dependencies from root project directory (`/ghibli_task`) with 
