@@ -38,7 +38,7 @@ Movies list URL is located at `http://0.0.0.0:8000/movies/`.
 
 ## Implementation
 
-Applications uses two endpoints from 
+Application uses two endpoints from 
 [Ghibli REST API](https://ghibliapi.herokuapp.com/) 
 to collect movies and people. Collected data is stored into database (Sqlite 
 is used for sake of simplicity).
