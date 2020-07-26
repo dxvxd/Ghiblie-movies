@@ -49,8 +49,8 @@ relations to the movies. Models for representing this data are part of Django
 app `catalog`.
 
 Urls for external API are stored in database (Django app `data_fetcher`) so 
-application can track the changes of collected data. First response from 
-external API is hashed (with md5) and hash signature is stored for comparing 
+application can track changes of collected data. First response from 
+external API is hashed (with md5) and hash signature is stored for comparison 
 with later responses. If later responses are not diferent (have same hash 
 signature) application will not process fetched data.
 
