@@ -14,7 +14,7 @@
                 <div>
                     People:
                     {% for character in movie.characters.all %}
-                        <div>{{ character.name }}</div>
+                        {{ character.name }}{% if not forloop.last %},{% endif %}
                     {% endfor %}
                 </div>
             {% endif %}
