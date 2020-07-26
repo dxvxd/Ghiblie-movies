@@ -1,0 +1,18 @@
+[
+{
+  "model": "data_fetcher.dataurl",
+  "pk": "films",
+  "fields": {
+    "url": "https://ghibliapi.herokuapp.com/films",
+    "data_hash": ""
+  }
+},
+{
+  "model": "data_fetcher.dataurl",
+  "pk": "people",
+  "fields": {
+    "url": "https://ghibliapi.herokuapp.com/people",
+    "data_hash": ""
+  }
+}
+]

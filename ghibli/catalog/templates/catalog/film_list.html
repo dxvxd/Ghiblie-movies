@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie List</title>
+</head>
+<body>
+<h3>Movies</h3>
+{% if object_list %}
+    {% for movie in object_list %}
+        <p>
+            <div>Movie: <b>{{ movie.title }}</b></div>
+            {% if movie.characters.count %}
+                <div>
+                    People:
+                    {% for character in movie.characters.all %}
+                        <div>{{ characters.name }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </p>
+    {% endfor %}
+{% else %}
+    <p>Unfortunately, there are no movies. Please, came back later.</p>
+{% endif %}
+</body>
+</html>
